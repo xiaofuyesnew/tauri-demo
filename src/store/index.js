@@ -9,4 +9,5 @@ export function setupStore(app) {
 }
 
 export { useGlobalStore } from './global'
+export { useWorkspaceStore } from './workspace'
 export default pinia

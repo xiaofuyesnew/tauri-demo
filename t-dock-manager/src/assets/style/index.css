@@ -1,0 +1,39 @@
+:root {
+    --t-dock-manager-bg-color: #DBE5F1; /* 主面板背景色 */
+    
+    --pane-header-color: inherit; /* 面板顶部文字颜色 */
+    --pane-header-bg-color: #DBE5F1; /* 面板顶部背景色 */
+    --pane-header-active-bg-color: #F4C542; /* 激活状态面板顶部背景色 */
+    --pane-header-btn-hover-bg-color: #D9E7FF; /* 面板顶部按钮hover背景色 */
+    --pane-header-btn-hover-borer-color: #3E70B9; /* 面板顶部按钮hover边框颜色 */
+    --pane-content-bg-color: #FFFFFF; /* 面板内容背景色 */
+    --pane-content-border-color: #A3B9D6; /* 面板内容边框色 */
+    --pane-footer-bg-color: #DBE5F1; /* 面板底部背景色 */
+    --pane-footer-tab-hover-bg-color: #F4C542; /* 面板底部tab控件hover背景色 */
+    --pane-footer-tab-active-bg-color: #FFFFFF; /* 面板底部tab控件激活状态背景色 */
+    --pane-footer-tab-active-border-color: #A3B9D6; /* 面板底部tab控件激活状态边框颜色 */
+    --pane-footer-tab-active-color: #3E70B9; /* 面板底部tab控件激活状态文字颜色 */
+    --pane-footer-tab-color: inherit; /* 面板底部tab控件文字颜色 */
+
+    --auto-hide-bar-container-bg-color: #DBE5F1; /* 自动隐藏栏背景色 */
+    --auto-hide-bar-group-bg-color: #DBE5F1; /* 自动隐藏栏分组背景色 */
+    --auto-hide-bar-group-border-color: #DBE5F1; /* 自动隐藏栏分组边框颜色 */
+    --auto-hide-item-color: inherit; /* 自动隐藏栏分组项文字颜色 */
+    --auto-hide-item-bg-color: #DBE5F1; /* 自动隐藏栏分组项背景色 */
+    --auto-hide-item-border-color: #DBE5F1; /* 自动隐藏栏分组项边框颜色 */
+    --auto-hide-item-active-bg-color: #D9E7FF; /* 自动隐藏栏分组项激活状态以及hover时背景色 */
+    --auto-hide-item-active-border-color: #3E70B9; /* 自动隐藏栏分组项激活状态以及hover时边框颜色 */
+    --auto-hide-item-color: #15202B; /* 自动隐藏栏分组项文字颜色 */
+    --auto-hide-pane-box-shadow: 5px 0px 5px 0px rgba(118, 117, 117, 0.83); /* 自动隐藏面板阴影 */
+
+    --window-container-bg-color: #DBE5F1; /* 窗口容器背景色 */
+    --window-container-border-color: #A3B9D6; /* 窗口容器边框颜色 */
+    --window-container-header-bg-color: #74829C; /* 窗口容器顶部背景色 */
+    --window-tab-bg-color: #E6E6E6; /* 窗口容器标题背景色 */
+    --window-tab-active-bg-color: #F4C542; /* 激活状态窗口容器标题背景色 */
+    --window-tab-border-color: #A8A8A8; /* 窗口容器标题边框颜色 */
+    --window-header-btn-hover-bg-color: #D9E7FF; /* 窗口容器顶部按钮hover背景色 */
+    --window-header-btn-hover-borer-color: #3E70B9; /* 窗口容器顶部按钮hover边框颜色 */
+
+    --splitter-bg-color: #DBE5F1; /* 面板间分割线背景色 */
+}

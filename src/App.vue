@@ -31,4 +31,20 @@ body,
   padding: 0 10px;
 }
 
+.simple-popover {
+  position: relative;
+  display: inline-flex;
+}
+
+.simple-popover-content {
+  position: fixed;
+  z-index: 1000;
+  min-width: 180px;
+  padding: 4px;
+  border: 1px solid #b9c2cf;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16);
+}
+
 </style>

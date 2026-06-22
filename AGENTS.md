@@ -10,6 +10,11 @@
 - `src-tauri/` contains the Rust/Tauri backend (`src/lib.rs`, `tauri.conf.json`, `capabilities/`, and app icons).
 - `public/` stores static assets served by Vite.
 
+## External Source Boundaries
+- Do not modify any source files under `t-dock-manager/`.
+- Treat `t-dock-manager` as a read-only upstream package. Integrations must use its existing build artifacts from `t-dock-manager/dist`.
+- If behavior needs to change, adapt this application code in `src/` or `src-tauri/` instead of editing `t-dock-manager`.
+
 ## Build, Test, and Development Commands
 - `pnpm install`: install JS dependencies.
 - `pnpm dev`: run the Vite frontend in development mode.

@@ -7,19 +7,9 @@ const routes = [
     component: () => import('@/views/Home.vue')
   },
   {
-    path: '/CompA',
-    name: 'CompA',
-    component: () => import('@/components/CompA.vue')
-  },
-  {
-    path: '/CompB',
-    name: 'CompB',
-    component: () => import('@/components/CompB.vue')
-  },
-  {
-    path: '/CompC',
-    name: 'CompC',
-    component: () => import('@/components/CompC.vue')
+    path: '/detached/:id',
+    name: 'detached-window',
+    component: () => import('@/views/DetachedWindow.vue')
   }
 ]
 
